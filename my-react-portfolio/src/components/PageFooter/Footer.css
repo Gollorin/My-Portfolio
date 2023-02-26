@@ -1,0 +1,60 @@
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+}
+  
+footer .foot-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+}
+
+footer .foot-div ul li img {
+  width: 32px;
+  height: 32px;
+}
+
+footer .foot-div ul li img:hover {
+  transform: scale(1.2);
+}
+
+footer .foot-div ul li img:hover > svg > g {
+  fill: var(--cl-primary);
+} 
+
+footer .foot-div ul li a {
+  display: flex;
+  align-items: center;
+}
+
+footer .text-copy {
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer .text-copy h3 {
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--cl-primary);
+  border: 2px solid var(--cl-primary);
+
+  width: 30px;
+  height: 30px;
+
+  background-color: transparent;
+
+  cursor: pointer;
+}

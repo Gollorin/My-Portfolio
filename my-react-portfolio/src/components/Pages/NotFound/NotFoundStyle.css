@@ -1,0 +1,18 @@
+.notfound-container {
+    height: 100%;
+    color: var(--cl-white);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notfound-container img {
+    height: 250px;
+    width: auto;
+}
+
+.notfound-container h1 {
+    margin: 20px 0;
+}

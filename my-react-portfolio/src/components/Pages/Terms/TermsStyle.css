@@ -1,0 +1,25 @@
+section.terms {
+    min-height: none;
+}
+
+section.terms ul {
+    list-style-position: inside;
+    margin-bottom: 30px;
+}
+
+section.terms h1.import {
+    color: var(--cl-primary);
+}
+
+section.terms h1 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+section.terms h2 {
+    margin-bottom: 10px;
+}
+
+section.terms p {
+    margin-bottom: 30px;
+}

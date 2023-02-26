@@ -1,0 +1,37 @@
+.timeline-cont {
+    margin: 30px 0 30px 0;
+}
+
+.timeline-line {
+    z-index: -1;
+}
+
+.timeline-line img {
+    width: 60%;
+    height: auto;
+}
+
+.timeline-line span.vertical-timeline-element-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3.time-line-title {
+    font-size: 20;
+}
+
+h4.time-line-desc {
+    color: var(--cl-l-grey);
+    font-size: 18px;
+}
+
+p.my-p {
+    font-size: 14px;
+    display: inline-block;
+}
+
+span.vertical-timeline-element-date {
+    color: var(--cl-primary);
+    opacity: 1;
+}
